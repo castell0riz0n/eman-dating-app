@@ -1,0 +1,23 @@
+.main-div { // استایل دادن به وسیله کلاس
+  border: 2px dashed blue;// مشخص کردن حاشیه به ترتیب . کلفتی و حالت و رنگ
+  width: 250px; // برای مشخص کردن عرض فعلی
+  max-width: 500px; // برای مشخص کردن حداکثر عرض
+  border-radius: 25px; // گرد کردن حاشیه
+  box-shadow: 5px 5px gray; // ایجاد سایه
+}
+
+#main-strong { //استایل دادن به وسیله آیدی
+  color: red; // برای رنگ محتوا استفاده میشود
+  font-size: 24px; // اندازه فونت
+}
+
+.second-div{
+  border: 2px dashed red;
+  margin-left: 20px; //فاصله بین دو المان در سمت چپ
+  margin-top: 8px; // فاصله بین دو المان در بالا
+  padding: 20px 10px 5px 25px; // حاشیه داخلی یا فاصله از داخل
+}
+
+h1,h2,h3,h4,h5{ // استایل دادن مستقیم به المان های اچ تی ام ال
+  color: brown;
+}
